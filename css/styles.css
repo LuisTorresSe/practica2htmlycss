@@ -1,0 +1,121 @@
+/*
+Colores
+  cyan: hsl(179, 62%, 43%)
+  lime: hsl(71, 73%, 54%)
+  grey: hsl(204, 43%, 93%)
+  light-blue: hsl(218, 22%, 67%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Karla
+  Estilos 200 y 400
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Karla', sans-serif;
+
+}
+
+main{
+
+
+  width: 46rem;
+  height: 30rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:4rem;
+  /* overflow: hidden; */
+}
+
+.atc_up
+{
+  height: 15rem;
+  width: 46rem;
+  padding: 1em 2em;
+  background-color: #fff;
+  
+}
+.title_up
+{
+  color:hsl(179, 62%, 43%);
+  font-size: 2rem;
+}
+.subtitle{
+
+  color:hsl(71, 73%, 54%);
+  font-weight: 400;
+}
+
+.text{
+
+  color:hsl(218, 22%, 67%);
+
+}
+
+.box_atc
+{
+  position: relative;
+  width: 23rem;
+  height: 15rem;
+  float: left;
+  padding: 1em 2em;
+}
+
+.atc_left
+{
+  position: relative;
+  background-color: hsl(179, 62%, 43%);
+  
+}
+
+.sign_up
+{
+  position: relative;
+  display: block;
+  top:-20px;
+  background-color:hsl(71, 73%, 54%);
+  padding:0.6rem 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  text-decoration: none;
+  color:#fff;
+  text-align: center;
+}
+
+.price{
+  font-size: 3rem;
+}
+
+.money_for_month
+{
+  color:rgb(255 255 255/ 0.5);
+  font-size: 1.5rem;
+}
+
+.text_atc_left{
+  position: relative;
+  top:-5px;
+  color:#fff;
+ 
+}
+
+.atc_right{
+
+  background-color: hsl(179, 62%, 35%);
+  text-align: left;
+}
+
+.list{
+
+  padding-left: 0;
+  list-style: none;
+  font-weight: 200;
+
+
+}
